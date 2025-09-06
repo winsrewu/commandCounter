@@ -1,7 +1,7 @@
 package org.jawbts.commandcounter;
 
 public class Counter {
-    private static Counter INSTANCE = new Counter();
+    private static final Counter INSTANCE = new Counter();
 
     private long count = 0;
 
